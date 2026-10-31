@@ -1,0 +1,334 @@
+:PROPERTIES:
+:ID:       1b47085c-74cc-4b14-b1c7-bd79c9aa318d
+:END:
+#+title: cybsec study plan
+#+date: [2026-10-13 Tue 14:11]
+
+* Master Roadmaps
+** Guided 90-day curriculum
+[[https://github.com/farhanashrafdev/90DaysOfCyberSecurity][farhanashrafdev/90DaysOfCyberSecurity]]
+Purpose: follow a structured progression through networking, security, Linux, Python, traffic analysis, Git, logging, cloud and introductory security testing.
+
+** Secondary roadmap
+[[https://github.com/jassics/security-study-plan][jassics/security-study-plan]]
+Purpose: explore the broader cybersecurity curriculum and career paths.
+
+** How to combine the roadmaps
+- This Org file is my single source of truth.
+- Use the 90-day curriculum as a guided syllabus, not a deadline.
+- Use the security-study-plan repository to explore topics when they fit my current phase.
+- Prioritize understanding, exercises and deliverables over finishing every link.
+
+* Professor Messer: Core Video Courses
+** Network+ N10-009
+- URL: https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/
+- Role: primary video resource for networking fundamentals.
+- Study during Month 2.
+- [ ] Learn networking devices and protocols.
+- [ ] Understand IPv4, IPv6, DNS, routing and ports.
+- [ ] Learn TCP vs UDP and common network services.
+- [ ] Understand HTTP, HTTPS and TLS.
+- [ ] Practice troubleshooting concepts.
+- [ ] Draw a browser-to-server communication diagram.
+
+** Security+ SY0-701
+- URL: https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/
+- Role: primary video resource for security fundamentals.
+- Study mainly during Month 3.
+- [ ] Learn threats, vulnerabilities and risk.
+- [ ] Understand authentication and authorization.
+- [ ] Study cryptography and secure communication.
+- [ ] Learn security architecture and access control.
+- [ ] Study security monitoring and incident response.
+- [ ] Apply concepts to my laptop threat model.
+
+** A+ (Optional)
+- URL: https://www.professormesser.com/
+- Use only when I need additional IT or hardware fundamentals.
+- Do not delay Linux practice to complete the entire A+ curriculum.
+
+** Video study method
+- Watch a focused lesson.
+- Write a summary in my own words.
+- Record unfamiliar terms.
+- Complete a related exercise or draw a diagram.
+- Review the concept later without replaying the video.
+*Note: the video training is free. Optional study materials and certification exams may cost money. Purchasing a certification is not required.*
+
+* The 24-Week Learning Roadmap
+** Phase 1: Linux Fundamentals
+*** TODO Week 1: Terminal and Files
+- Learn pwd, ls, cd, whoami, uname and man.
+- Understand files, directories, paths and hidden files.
+- Create and inspect test files in my lab directory.
+- Explain each command in my own words.
+- Deliverable: Linux command reference.
+
+Resources:
+[[https://wiki.archlinux.org/][ArchWiki]]
+[[https://linuxjourney.com/][Linux Journey]]
+[[https://www.gnu.org/software/bash/manual/][Bash manual]]
+
+*** TODO Week 2: Users and Permissions
+- Learn users, groups, owners and permission bits.
+- Read and interpret ls -l output.
+- Practice chmod on test files only.
+- Understand sudo and least privilege.
+- Deliverable: permissions exercise notes.
+
+Resources:
+[[https://wiki.archlinux.org/][ArchWiki]]
+[[https://linuxjourney.com/][Linux Journey]]
+
+*** TODO Week 3: Processes and Services
+- Learn processes and background jobs.
+- Practice ps and top.
+- Understand systemd services and systemctl.
+- Learn basic journalctl usage.
+- Deliverable: explain three processes or services.
+
+*** TODO Week 4: Packages and Troubleshooting
+- Understand pacman and package updates.
+- Read error messages and inspect system logs.
+- Learn basic shell pipelines and redirection.
+- Review Linux permissions and processes.
+- Deliverable: first Linux security baseline.
+
+Practice:
+[[https://overthewire.org/wargames/bandit/][OverTheWire Bandit]]
+
+** Phase 2: Networking and the Web
+*** TODO Week 5: Network Fundamentals
+- Learn LAN, WAN, routers, switches and access points.
+- Understand MAC and IP addresses.
+- Learn private vs public IP addressing.
+- Start Professor Messer Network+ N10-009.
+- Deliverable: label the main components of my home network.
+
+*** TODO Week 6: IP, Routing, DNS and Ports
+- Understand TCP vs UDP.
+- Learn routing and default gateways.
+- Practice ip -brief address and ip route.
+- Learn DNS lookups with dig.
+- Study common ports and their purposes.
+- Deliverable: networking notes and command examples.
+
+*** TODO Week 7: HTTP, HTTPS and TLS
+- Understand client-server architecture.
+- Learn HTTP methods and response status codes.
+- Inspect response headers with curl.
+- Understand encryption in transit and TLS certificates.
+- Continue relevant Network+ lessons.
+- Deliverable: annotated browser-to-server diagram.
+
+*** TODO Week 8: Networking Review
+- Review OSI and TCP/IP models.
+- Explain DNS resolution and a TCP connection.
+- Practice interpreting network command output.
+- Review weak topics from Network+.
+- Deliverable: networking self-test and diagram.
+
+Resources:
+[[https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/][Professor Messer Network+ N10-009]]
+[[https://skillsforall.com/][Cisco Skills for All]]
+[[https://www.cloudflare.com/learning/][Cloudflare Learning Center]]
+[[https://www.wireshark.org/docs/][Wireshark documentation]]
+
+** Phase 3: Security Fundamentals
+*** TODO Week 9: Security Principles
+- Learn confidentiality, integrity and availability.
+- Distinguish threats, vulnerabilities and risks.
+- Understand defense in depth and least privilege.
+- Begin Professor Messer Security+ SY0-701.
+- Deliverable: personal laptop threat model.
+
+*** TODO Week 10: Identity and Cryptography
+- Understand authentication vs authorization.
+- Learn MFA and password managers.
+- Distinguish hashing from encryption.
+- Understand digital signatures and certificates at a high level.
+- Deliverable: explain five security concepts without notes.
+
+*** TODO Week 11: Threats and Protection
+- Learn phishing, malware and social engineering.
+- Understand patching and backups.
+- Learn basic endpoint protection and access control.
+- Practice recognizing phishing indicators using safe examples.
+- Deliverable: personal account-security checklist.
+
+*** TODO Week 12: Logging and Security Review
+- Learn logging and monitoring concepts.
+- Understand basic incident response.
+- Review relevant Security+ lessons.
+- Complete a security fundamentals self-test.
+- Deliverable: threat model and security checklist.
+
+Resources:
+[[https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/][Professor Messer Security+ SY0-701]]
+[[https://www.cisa.gov/][CISA]]
+[[https://owasp.org/][OWASP]]
+[[https://attack.mitre.org/][MITRE ATT&CK]]
+
+** Phase 4: Programming and Practical Skills
+*** TODO Week 13: Python Basics
+- Learn variables, strings, lists and dictionaries.
+- Understand conditionals and loops.
+- Write simple functions.
+- Practice reading and writing files.
+- Deliverable: simple text-file analyzer.
+
+Resource:
+[[https://docs.python.org/3/tutorial/][Official Python tutorial]]
+
+*** TODO Week 14: Log Analysis
+- Learn how to search and filter text.
+- Understand timestamps and log levels.
+- Use grep and other basic text-processing commands.
+- Write a Python script to count repeated log messages.
+- Deliverable: harmless Python log-summary script.
+
+*** TODO Week 15: Git and Documentation
+- Learn git init, status, add, commit and diff.
+- Understand README files and .gitignore.
+- Version-control notes and scripts.
+- Check for secrets before every commit.
+- Deliverable: documented local Git repository.
+
+Resources:
+[[https://git-scm.com/book/en/v2][Pro Git book]]
+
+*** TODO Week 16: Network Traffic Analysis
+- Learn packets, source/destination addresses and ports.
+- Understand DNS queries and TCP handshakes.
+- Inspect an official sample capture or authorized traffic.
+- Write down observations without overclaiming.
+- Deliverable: packet-analysis report.
+
+Resource:
+[[https://www.wireshark.org/docs/][Wireshark documentation]]
+
+** Phase 5: Guided Security Labs
+*** TODO Week 17: Web Security Fundamentals
+- Understand requests, responses, cookies and sessions.
+- Learn the basics of browser security.
+- Begin beginner PortSwigger Academy lessons.
+- Deliverable: annotated HTTP request/response example.
+
+*** TODO Week 18: Authentication and Access Control
+- Understand common authentication weaknesses.
+- Learn session management and access-control failures.
+- Practice only in authorized training labs.
+- Deliverable: authentication threat model.
+
+*** TODO Week 19: Injection and Input Handling
+- Understand why injection vulnerabilities occur.
+- Learn parameterized SQL queries.
+- Study safe output encoding and input validation.
+- Complete a beginner lab and document the mitigation.
+- Deliverable: vulnerability and remediation report.
+
+*** TODO Week 20: Practical Lab Review
+- Complete additional beginner exercises.
+- Record evidence and reproduction steps.
+- Explain impact and remediation.
+- Review lab scope and safety requirements.
+- Deliverable: at least three lab write-ups in total.
+
+Resources:
+[[https://portswigger.net/web-security][PortSwigger Web Security Academy]]
+[[https://picoctf.org/][picoCTF]]
+[[https://overthewire.org/wargames/bandit/][OverTheWire Bandit]]
+
+** Phase 6: Projects and Specialization
+*** TODO Week 21: Linux Hardening
+- Review package updates and account permissions.
+- Inspect enabled services and network exposure.
+- Review SSH and firewall concepts.
+- Back up important data before configuration changes.
+- Deliverable: documented Arch Linux hardening checklist.
+
+*** TODO Week 22: Blue-Team Investigation
+- Analyze a provided sample log or packet capture.
+- Construct an incident timeline.
+- Separate evidence from assumptions.
+- Recommend appropriate next steps.
+- Deliverable: concise investigation report.
+
+*** TODO Week 23: Portfolio Cleanup
+- Improve project READMEs.
+- Add sample input and output where safe.
+- Explain limitations and assumptions.
+- Remove sensitive data and secrets.
+- Deliverable: three to five polished artifacts.
+
+*** TODO Week 24: Assessment and Specialization
+- Review Linux, networking and security fundamentals.
+- Repeat selected exercises without notes.
+- Explain completed projects in plain English.
+- Explore two security specialties.
+- Choose one specialty for the next 8-12 weeks.
+- Deliverable: next-stage learning roadmap.
+
+* Free Resource Library
+** Linux
+[[https://wiki.archlinux.org/][ArchWiki]]
+[[https://linuxjourney.com/][Linux Journey]]
+[[https://www.gnu.org/software/bash/manual/][Bash manual]]
+[[https://overthewire.org/wargames/bandit/][OverTheWire Bandit]]
+
+** Networking
+[[https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/][Professor Messer Network+]]
+[[https://skillsforall.com/][Cisco Skills for All]]
+[[https://www.cloudflare.com/learning/][Cloudflare Learning Center]]
+[[https://www.wireshark.org/docs/][Wireshark documentation]]
+
+** Security
+[[https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/][Professor Messer Security+]]
+[[https://www.cisa.gov/][CISA]]
+[[https://owasp.org/][OWASP]]
+[[https://attack.mitre.org/][MITRE ATT&CK]]
+[[https://www.nist.gov/cyberframework][NIST Cybersecurity Framework]]
+
+** Programming and version control
+[[https://docs.python.org/3/tutorial/][Python tutorial]]
+[[https://git-scm.com/book/en/v2][Pro Git]]
+
+** Web security and CTFs
+[[https://portswigger.net/web-security][PortSwigger Web Security Academy]]
+[[https://picoctf.org/][picoCTF]]
+[[https://owasp.org/www-project-juice-shop/][OWASP Juice Shop]]
+
+*Use free content first. Paid exams, optional premium features and paid study materials are not required.*
+
+* Portfolio Checklist
+- [ ] Linux command reference.
+- [ ] Linux security baseline.
+- [ ] Networking diagram.
+- [ ] Personal laptop threat model.
+- [ ] Security checklist.
+- [ ] Python log-analysis script.
+- [ ] Network traffic analysis report.
+- [ ] Three or more authorized lab write-ups.
+- [ ] Incident investigation report.
+- [ ] README documenting project limitations.
+
+* Choose a Specialty
+** Red team
+penetration testing Authorized testing, web security, vulnerability validation and reporting.
+
+** Blue team
+SOC Monitoring, log analysis, alert triage, detection and incident response.
+
+** Digital forensics
+Evidence handling, file analysis, timelines and investigation.
+
+** Security engineering
+Linux hardening, identity, access control and automation.
+
+- Explore blue-team fundamentals.
+- Explore web security fundamentals.
+- Compare which activities I enjoy most.
+- Select a specialty for the next 8-12 weeks.
+
+* Final Reminder
+~Consistency beats speed. I do not need to know everything today. My goal is to understand one thing better every day. My progress is measured by what I can explain, practice and document independently.~
