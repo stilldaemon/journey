@@ -1,0 +1,25 @@
+* I would say I became more confident using basic git command
+
+** Details
+configuring git while using org-roam with emacs but separate them in different folder with symlink works beautifully!
+
+** What I Studied
+- ~ln -s~ make a symlink: now I know how to make a neat filetree
+- ~git init~ on the folder I want
+- ~git add .~  add files
+- ~git status~
+- ~git commit -m "MESSAGE"~
+- ~git push~
+- I can just type ~cd ..~ to back 1 folder before. I always use ~cd ~/target~ this whole time, lol
+
+** Key Takeaways
+instead of remembering all the command line, practice hands-on with real-world project is the best
+
+** Challenges
+1. need to figure out how to not make my org-roam files broken
+2. still need time when and how to use ~grep~, ~chmod~
+
+** Tomorrow's Goals
+- trying another git command
+- perhaps can make a new repo with onli CLi without using the web?
+- more practice!
